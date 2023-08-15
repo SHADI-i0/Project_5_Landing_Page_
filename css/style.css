@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.tx{
+    margin-left: 60px;
+}
+body{
+    background-color: rgb(139, 136, 136) !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+a{
+    text-decoration: none;
+    color: white !important;
+}
+a:hover{
+    color:antiquewhite !important;
+}
+ul{
+    list-style: none;
+}
+.carousel-inner{
+    margin-top: 58px;
+}
+.carousel-inner .carousel-caption{
+    background: rgba(157, 154, 154, 0.455);
+    border-radius: 10px;
+}
+.card-body h2{
+    font-size: 38px;
+}
+.nav-item {
+    margin-right: 5px !important;
+}
+.img{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+}
+.img1{
+    background-image:url(../images/how-much-does-it-cost-to-insure-a-kia-rio-hatchback-62fdf97975301.jpg)
+}
+.img2{
+    background-image: url(../images/KIA-RIO-1-4-Ls-from-R4299pm-078359.jpg)
+}
+.myicon{
+    height:32px;
+    width: 32px;
+    border: 1px solid black;
+    border-radius: 18px;
+}
+.navbar-brand{
+    transition: 0.7s;
+}
+.navbar-brand:hover{
+    text-shadow: 12px 12px 15px white,
+                -12px -12px 15px white;
+}
+.dropdown-menu li a{
+    text-shadow: 1px 1px 0px black;
+}
+.dropdown-menu li a:hover{
+    color: black !important;
+}
+@media(min-width:579px){
+    .container {
+        width: 567px;
+    }
+}
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

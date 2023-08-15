@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIA CARS</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/all.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-secondary " style="opacity:0.8">
+    <div class="container-fluid ">
+      <input type="image" src="images/logo-4.jpg" class="me-3 rounded-circle" alt="photo" height="40px" width="40px">
+      <a class="navbar-brand text-light" href="#"
+        style="border-right:1px solid white; padding-right: 10px; font-size: 21px; font-weight: 900;">CAR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-1">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-1">
+        <ul class="navbar-nav  mb-2 mb-lg-0 me-auto mla">
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Species
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" target="_blank" href="#">Kia Rio</a></li>
+              <li><a class="dropdown-item text-dark" target="_blank" href="#">KIA Sephia</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item text-dark" target="_blank" href="#">Kia Optima</a></li>
+              <li><a class="dropdown-item text-dark" target="_blank" href="#">Kia Picanto</a></li>
+              <li><a class="dropdown-item text-dark" target="_blank" href="#">Kia Telluride</a></li>
+              <li><a class="dropdown-item text-dark" target="_blank" href="#">Kia Sportage</a></li>
+              <li><a class="dropdown-item text-dark" target="_blank" href="#">Kia Stinger</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-light">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-3" type="search" placeholder="Search">
+          <button class="btn btn-outline-light me-2" type="button">Search</button>
+        </form>
+        <form class="d-flex">
+          <button class="btn btn-outline-light" type="button" data-bs-toggle="modal"
+            data-bs-target="#dd-1">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="dd-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-secondary">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label text-secondary">Email address</label>
+              <input type="email" class="form-control" id="email1">
+              <div id="email2" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label text-secondary">Password</label>
+              <input type="password" class="form-control" id="password1">
+            </div>
+            <div class="mb-3 form-check">
+              <div class="form-check form-switch">
+                <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label  text-secondary " for="flexSwitchCheckChecked">Remmember me</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--header------------------------------------------------------------------------------------>
+
+  <div class="container-fluid p-0">
+    <div id="dd" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#dd" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#dd" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#dd" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#dd" data-bs-slide-to="3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/rioa_o.jpg" class="d-block w-100" height="545px" alt="photo-1">
+          <div class="carousel-caption me-auto">
+            <h1>kia rio</h1>
+            <a href="#" class="btn btn-danger" target="_blank">view this car</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/123.webp" class="d-block w-100" height="545px" alt="photo-2">
+          <div class="carousel-caption me-auto">
+            <h1>Kia Optima</h1>
+            <a href="#" class="btn btn-primary" target="_blank">view this car</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/7997-KIA Sportage (4).jpg" class="d-block w-100" height="545px" alt="photo-3">
+          <div class="carousel-caption me-auto">
+            <h1>Kia Sportage</h1>
+            <a href="#" class="btn btn-success" target="_blank">view this car</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/maxresdefault.jpg" class="d-block w-100" height="545px" alt="photo-4">
+          <div class="carousel-caption me-auto">
+            <h1>Kia Stinger</h1>
+            <a href="#" class="btn btn-secondary" target="_blank">view this car</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#dd" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#dd" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+    <div class="card p-3 bg-dark text-white">
+      <div class="card-body">
+        <h2 class="card-title">Welcome</h2>
+        <p class="card-text">You can buy a car at the lowest possible price .</p>
+        <a href="#" class="btn btn-primary mt-3">slide down</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!--carousel---------------------------------------------------------------------------->
+
+  <h1 class="text-center text-light bg-secondary p-3 m-0">Our product specifications</h1>
+  <div class="accordion" id="accordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="head1">
+        <button class="accordion-button collapsed btn-outline-primary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapse1" aria-controls="collapse1">
+          KIA RIO SPECIFICATIONS
+        </button>
+      </h2>
+      <div id="collapse1" class="accordion-collapse collapse " aria-labelledby="head1" data-bs-parent="#accordion1">
+        <div class="accordion-body">
+          The 2022 Kia Rio is powered by a 1.6-liter four-cylinder engine that produces 120 horsepower and 151 Nm of
+          torque. The engine is mated to a continuously variable transmission with electronic precision shifting.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="head2">
+        <button class="accordion-button collapsed btn-outline-primary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapse2" aria-controls="collapse2">
+          KIA OPTIMA SPECIFICATIONS
+        </button>
+      </h2>
+      <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="head2" data-bs-parent="#accordion2">
+        <div class="accordion-body">
+          The car is available with 18-inch rims that raise the stability of the car on roads as well as the aesthetic
+          touch. Providing mirrors through which to determine the blind spot. The presence of 2 shakman exits and the
+          presence of inverters. Providing rear sensors to assist in reversing after collisions.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="head3">
+        <button class="accordion-button collapsed btn-outline-primary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapse3" aria-controls="collapseThree">
+          KIA PICANTO SPECIFICATIONS
+        </button>
+      </h2>
+      <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="head3" data-bs-parent="#accordion3">
+        <div class="accordion-body">
+          It features many entertainment and convenience features such as a touch screen with Apple Carplay and Android
+          Auto, and separate rear seats. </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- section-1--------------------------------------------------------------------->
+
+  <h1 class="text-center text-light  bg-secondary p-3 m-0 ">Our Location</h1>
+  <div class="card bg-dark">
+    <div class="card-body ">
+      <h4 class="text-light">First branch:</h4>
+      <br>
+      <h3 class="text-center"><a class="text-center  text-secondary" href="#">THE MAB</a></h3>
+      <hr class="bg-light text-light">
+      <h4 class="text-light">second branch:</h4>
+      <br>
+      <h3 class="text-center"><a class="text-center  text-secondary" href="#">THE MAB</a></h3>
+      <hr class="bg-light text-light">
+      <h4 class="text-light">Third branch:</h4>
+      <br>
+      <h3 class="text-center"><a class="text-center  text-secondary" href="#">THE MAB</a></h3>
+    </div>
+  </div>
+  <hr>
+  <h1 class="text-center text-light bg-secondary p-3 m-0 ">Our product pictures</h1>
+  <div class="card bg-dark">
+    <div class="card-body">
+      <h4 class="text-light">To see all of our cars :</h4><br><a class="text-center tx" href="#">push</a>
+    </div>
+  </div>
+  <hr>
+  <h1 class="text-center text-light bg-secondary p-3 m-0 ">Our car offers</h1>
+  <div class="card bg-dark">
+    <div class="card-body">
+      <h4 class="text-light">To get cars at the cheapest prices:</h4><br><a class="text-center tx" href="#">push</a>
+    </div>
+  </div>
+  <hr>
+
+  <!--section2-------------------------------------------------------------------------->
+
+  <div class="img img1"></div>
+  <hr>
+  <h1 class="text-center text-light p-3 m-0 bg-secondary">CAR MODELS</h1>
+  <div class="container-fluid">
+    <div class="row justify-content-around pb-4 " style="background-color:rgb(131, 131, 131) ; border-radius: 10px;">
+      <div class="card bg-dark text-light col-xl-5 col-lg-4 col-md-3 col-sm-6 m-1 mt-5"
+        style="width: 300px; height: 400px;">
+        <img src="images/1_1_1.jpg" alt="CAR" style="height:230px;"></a>
+        <div class="card-body">
+          <h5 class="card-title">CAR</h5>
+          <p class="card-text">CAR KIA RIO COLOR BLUE</p>
+          <a href="#" class="btn btn-primary" target="_blank">Click to view price</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-xl-5 col-lg-4 col-md-3 col-sm-6 m-1 mt-5"
+        style="width: 300px; height: 400px;">
+        <img src="images/2_2.jpg" alt="CAR" style="height:230px;"></a>
+        <div class="card-body">
+          <h5 class="card-title">CAR</h5>
+          <p class="card-text">CAR KIA RIO COLOR IRON</p>
+          <a href="#" class="btn btn-primary" target="_blank">Click to view price</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-xl-5 col-lg-4 col-md-3 col-sm-6 m-1 mt-5"
+        style="width: 300px; height: 400px;">
+        <img src="images/lI4QFKAz.jpg" alt="CAR" style="height:230px; "></a>
+        <div class="card-body">
+          <h5 class="card-title">CAR</h5>
+          <p class="card-text">CAR KIA RIO COLOR WHITE</p>
+          <a href="#" class="btn btn-primary" target="_blank">Click to view price</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-xl-5 col-lg-4 col-md-3 col-sm-6 m-1 mt-5"
+        style="width: 300px; height: 400px;">
+        <img src="images/سيارات-كيا-ريو-بالسعودية-رخيصة.jpg" alt="CAR" style="height:230px;"></a>
+        <div class="card-body">
+          <h5 class="card-title">CAR</h5>
+          <p class="card-text">CAR KIA RIO COLOR DARK</p>
+          <a href="#" class="btn btn-primary" target="_blank">Click to view price</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-xl-5 col-lg-4 col-md-3 col-sm-6 m-1 mt-5"
+        style="width: 300px; height: 400px;">
+        <img src="images/تصميم-كيا-ريو-2019.png" alt="CAR" style="height:230px;"></a>
+        <div class="card-body">
+          <h5 class="card-title">CAR</h5>
+          <p class="card-text">CAR KIA RIO COLOR RED</p>
+          <a href="#" class="btn btn-primary" target="_blank">Click to view price</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-xl-5 col-lg-4 col-md-3 col-sm-6 m-1 mt-5"
+        style="width: 300px; height: 400px;">
+        <img src="images/mobile_listing_main_2022_Kia_Rio_Exterior_01.png" alt="CAR" style="height:230px;"></a>
+        <div class="card-body">
+          <h5 class="card-title">CAR</h5>
+          <p class="card-text">CAR KIA RIO COLOR GREY</p>
+          <a href="#" class="btn btn-primary" target="_blank">Click to view price</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-xl-5 col-lg-4 col-md-3 col-sm-6 m-1 mt-5"
+        style="width: 300px; height: 400px;">
+        <img src="images/R.jpeg" alt="CAR" style="height:230px;"></a>
+        <div class="card-body">
+          <h5 class="card-title">CAR</h5>
+          <p class="card-text">CAR KIA RIO COLOR BLACK</p>
+          <a href="#" class="btn btn-primary" target="_blank">Click to view price</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- section3-------------------------------------------------------------------------->
+
+  <div class="img img2"></div>
+  <hr>
+  <h2 class="text-center text-light m-3">Our latest releases</h2>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="card bg-dark m-3 text-light" style="width: 300px; height: 360px;">
+        <img src="images/abcd.webp" height="290px" alt="CAR">
+        <div class="card-body">
+          <p class="card-text">KIA RIO HATCHBACK 2023</p>
+        </div>
+      </div>
+      <div class="card bg-dark m-3  text-light" style="width: 300px; height: 360px;">
+        <img src="images/anv.webp" height="290px  alt=" CAR">
+        <div class="card-body">
+          <p class="card-text">FORM THE INSIDE</p>
+        </div>
+      </div>
+      <div class="card bg-dark m-3 bg-dark text-light" style="width: 300px; height: 360px;">
+        <img src="images/abcdef6.webp" height="290px alt=" CAR">
+        <div class="card-body">
+          <p class="card-text"> BACK OF THE CAR</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <h2 class="text-center text-light">Join Us</h2>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="card m-3 bg-dark" style="width: 300px;">
+        <div class="card-body  d-flex flex-column text-light text-center">
+          <h6 class="card-title mb-3">Follow</h6>
+          <input class="myicon mb-3" style="align-self: center;" src="images/facebook.JPG" type="image" alt="facebook">
+          <a href="#" target="_blank" class="card-link mb-0">Go to link</a>
+        </div>
+      </div>
+      <div class="card m-3 bg-dark" style="width: 300px;">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-3">watch vedios</h6>
+          <input class="myicon mb-3" style="align-self: center;" src="images/youtube-2.png" type="image" alt="facebook">
+          <a href="#" target="_blank" class="card-link mb-0">Go to link</a>
+        </div>
+      </div>
+      <div class="card m-3 bg-dark" style="width: 300px;">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-3">Like the page</h6>
+          <input class="myicon mb-3" style="align-self: center; background-color: white;" src="images/انستقرام 3.png"
+            type="image" alt="facebook">
+          <a href="#" target="_blank" class="card-link mb-0">Go to link</a>
+        </div>
+      </div>
+      <div class="card m-3 bg-dark" style="width: 300px;">
+        <div class="card-body text-light d-flex flex-column text-center">
+          <h6 class="card-title mb-3">Subscribe Now</h6>
+          <input class="myicon mb-3" style="align-self: center;background-color: white; "
+            src="images/twitter_logo_blue.png.twimg.768.png" type="image" alt="facebook">
+          <a href="#" target="_blank" class="card-link mb-0 ">Go to link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- section4------------------------------------------------------------------------------>
+
+  <footer class="bg-dark text-light mt-4 p-4">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <hr>
+          <h4><img src="images/jaban.png" class="myicon" alt="MAP">contact numbers</h4>
+          <hr>
+          <div>
+            <p>Address : SOUTH KOREA </p>
+            <p>Tel : 000-000-000</p>
+            <p>Fax : 000-000-000</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <hr>
+          <h4><img src="images/IMPORTANT.svg" class="myicon" alt="MAP" style="background-color: white;"> Important links
+          </h4>
+          <hr>
+          <p><a href="#" target="_blank">Visit Us</a></p>
+          <p><a href="#" target="_blank">Take alook</a></p>
+          <p><a href="#" target="_blank">Your health is more important</a></p>
+        </div>
+        <div class="col-md-4">
+          <hr>
+          <h4><img
+              src="images/png-clipart-computer-icons-customer-service-icon-design-it-service-management-ub4we-engineering-services-hand-service.png"
+              class="myicon" alt="MAP"> Vision</h4>
+          <hr>
+          <p>Serveices for all </p>
+          <p>Provide best serveices</p>
+          <p>you will be better than before</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center text-secondary">Copyright © 2022 Kia South Korea, Inc.., All rights</p>
+    <hr>
+
+    <!-- section5------------------------------------------------------------------------------------->
+
+</body>
+
+</html>
